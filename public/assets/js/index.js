@@ -13,11 +13,11 @@ const path = require('path');
 // Initialize an instance of Express.js
 const app = express();
 
-// Specify on which port the Express.js server will run
+// // Specify on which port the Express.js server will run
 const PORT = 3001;
 
-// Static middleware pointing to the public folder
-app.use(express.static('public'));
+// // Static middleware pointing to the public folder
+// app.use(express.static('public'));
 
 
 if (window.location.pathname === '/notes') {
